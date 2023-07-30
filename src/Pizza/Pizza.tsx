@@ -51,8 +51,8 @@ return (
     <button type="button" onClick={addSalamy}>Add salamy</button>
     <h2>Salamy quality: {counterSalamy} </h2>
 
-    <p> 'Your pizza Margarita with additional: Tomato {pizzaMargaritta.tomato} pieces, Cheese 
-{pizzaMargaritta.cheese} pieces Salamy {pizzaMargaritta.salamy} pieces;</p>
+
+    <p> 'Your pizza Margarita with additional: Tomato {pizzaMargaritta.tomato} pieces, Cheese {pizzaMargaritta.cheese}, pieces Salamy {pizzaMargaritta.salamy} pieces;</p>
 <span>{}</span>
    
 </>

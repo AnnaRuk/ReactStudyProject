@@ -7,7 +7,13 @@ import Counter from './Counter/Counter';
 import reportWebVitals from './reportWebVitals';
 import Apple from './Apple/Apple';
 import Pizza from './Pizza/Pizza';
-
+import PizzaShow from './PizzaShow/PizzaShow';
+import AppleClass from './AppleClass/AppleClass';
+import PizzaClass1 from './PizzaClass1/PizzaClass1';
+import PizzaClass2 from './PizzaClass2/PizzaClass2';
+import PizzaClass3 from './PizzaClass3/PizzaClass3';
+import PetRecord from './PetRecord/PetRecord';
+import PetShow from './PetShow/PetShow';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -15,11 +21,21 @@ const root = ReactDOM.createRoot(
 root.render(
   //<React.StrictMode>
   <>
-  <App />
+  {/* <App /> */}
   <Dog />
   <Counter/>
   <Apple/>
   <Pizza />
+  <AppleClass />
+  <PizzaClass1 />
+  <PizzaClass2 />
+  <PizzaClass3 />
+  {/* <PetRecord id = {234}
+    petName = {'Anna'}
+    additionalInfo = {'additional'}
+    dysplayInfo= {true} /> */}
+  <PetShow />
+
 
   </>
   
