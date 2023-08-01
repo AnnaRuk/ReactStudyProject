@@ -6,7 +6,6 @@ import Message from '../Message/Message';
 export default function PizzaClass1():JSX.Element {
    const [pizza, setPizza] = useState<string>('Make pizza: ');
 
-   
 
       function handleAddMushrooms(): void {
         setPizza(`${pizza} mushrooms`);

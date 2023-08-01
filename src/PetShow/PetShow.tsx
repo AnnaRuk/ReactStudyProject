@@ -44,7 +44,8 @@ let bird:Pet={
         id={dog.id} 
         petName={dog.petName} 
         additionalInfo={dog.additionalInfo}
-        dysplayInfo={dog.dysplayInfo} />
+        dysplayInfo={dog.dysplayInfo}
+        color={'red'} />
 
         <PetRecord 
         id={bird.id} 

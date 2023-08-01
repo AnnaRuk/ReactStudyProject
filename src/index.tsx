@@ -14,6 +14,9 @@ import PizzaClass2 from './PizzaClass2/PizzaClass2';
 import PizzaClass3 from './PizzaClass3/PizzaClass3';
 import PetRecord from './PetRecord/PetRecord';
 import PetShow from './PetShow/PetShow';
+import PizzaNew from './PizzaNew/PizzaNew';
+import UseEffect from './UseEffect/UseEffect';
+import Boredapi from './Boredapi/Boredapi';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -22,6 +25,11 @@ root.render(
   //<React.StrictMode>
   <>
   {/* <App /> */}
+
+  <Boredapi />
+  <UseEffect />
+
+  <PizzaNew />
   <Dog />
   <Counter/>
   <Apple/>
